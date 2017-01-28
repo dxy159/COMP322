@@ -1,0 +1,16 @@
+PART 1
+
+1) 
+Answer: "not equal"
+
+2) 
+Answer: "equal"
+
+3)
+No, it is not good memory management, and it will lead to a run-time error. This is because the pointer q, was never allocated to memory with "new" or malloc, so deleting it from memory is not allowed.
+
+4)
+Yes, the snippet of code would be of good memory management. This is because only p was allocated to memory with 'new' and only p was deallocated with 'delete'. Because q was never allocated to memory, assigning it to be NULL would not cause any errors.
+
+5)
+Firstly, there will be a segmentation fault error because name is only assigned to hold 10 characters, whereas '12345678910' has 11. Because x is never changed in this question, it will still hold the value of 0. So if the segmentation error is fixed, the console will simply print "0 ".
