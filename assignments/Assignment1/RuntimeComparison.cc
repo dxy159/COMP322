@@ -102,7 +102,7 @@ void printResults(int *p, int n) {
 int main() {
 	std::cout << "Number of Elements\t" << "Bubble Sort\t" << "Merge Sort\t" <<std::endl;
 	int n = 10;
-	while (n < 30000) {
+	while (n < 1000000) {
 		int p[n];
 		printResults(p, n);
 		n *= 2;
